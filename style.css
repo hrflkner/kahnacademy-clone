@@ -1,0 +1,279 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*
+        Global Styles
+---------------------------------
+*/
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    text-align: center;
+}
+body {
+    margin: 0 auto;
+}
+h1{
+    font-size: 5.2rem;
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: black;
+}
+h2 {
+    font-size: 4.5rem;
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 12rem;
+}
+h5 {
+    font-family: 'Bitter', serif;
+    font-size: 2.4rem;
+    margin: 0.5rem auto;
+}
+
+
+/*
+        Header Layout Styles
+---------------------------------
+*/
+header {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    overflow: auto;
+}
+header nav {
+    margin: 0 auto;
+    max-width: 1175px;
+}
+header nav > * {
+    max-height: 60px;
+}
+
+
+.course-search {
+    float: left;
+}
+.course-search > * {
+    float: left;
+    margin-right: 3rem;
+}
+.dropdown-menu a svg {
+    float: right;
+    margin-left: 0.5rem;
+}
+.course-search a {
+    padding: 2.2rem 0;
+}
+.search-bar {
+    height: 60px;
+}
+.search-bar a {
+    padding: 1.2rem 1rem;
+    margin: 1rem 0;
+    border-radius: 3px;
+}
+.search-bar a:hover {
+    background-color: rgb(223, 223, 223);
+}
+.search-bar span:first-of-type {
+    padding-right: 10rem;
+}
+.search-bar ion-icon {
+    margin-bottom: -0.4rem;
+}
+
+
+/*
+        Nav Link Layout 
+---------------------------------
+*/
+.nav-links {
+    float: right;
+}
+.nav-links > li {
+    float: left;
+    padding-left: 3.5rem;
+}
+.nav-links a {
+    display: block;
+    padding: 2.2rem 0;
+}
+
+
+/*
+        Header Typography
+---------------------------------
+*/
+header a, span {
+    display: inline-block;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #2a51ff;
+}
+
+/*
+        Logo SVG Styles
+---------------------------------
+*/
+.Khan-Academy-Logo {
+    display: inline;
+    margin-left: -8rem;
+}
+.Khan-Academy-Logo > a {
+    display: inline-block;
+    padding: 1.5rem 0;
+}
+._1ab8w4s7 {
+    color: #0a2a66 !important;
+}
+._1rt6g9t {
+    width: 175px !important;
+    fill: currentColor !important;
+}
+._1rt6g9t:hover {
+    width: 175px !important;
+    fill: #2a51ff !important;
+}
+
+
+/*
+        Main Styles
+---------------------------------
+*/
+.section1 {
+    clear: left;
+    margin: 5.5rem auto;
+    margin-bottom: 22rem;
+    max-width: 1125px;
+}
+
+
+/*
+      Section1 Layout Styles
+---------------------------------
+*/
+.section1 {
+    overflow: auto;
+}
+.section1 img {
+    height: 550px;
+    width: auto;
+    float: left;
+    margin-right: 2rem;
+}
+.heading-text {
+    text-align: left;
+    margin: 120px 0 0 0;
+    padding-right: 40px;
+}
+.heading-text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2;
+    margin: 3rem 0;
+}
+.heading-text a {
+    display: inline-block;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgb(0, 98, 255);
+    padding: 1.4rem 1.6rem;
+}
+.section1-links span {
+    border: 2px solid white;
+}
+.section1-links span:hover {
+    border: 2px solid rgb(0, 98, 255);
+    border-radius: 5px;
+}
+
+/*
+      Section2 Layout Styles
+---------------------------------
+*/
+.section2 {
+    margin: 5.5rem auto;
+    margin-bottom: 22rem;
+    max-width: 1125px;
+}
+.section2 article {
+    float: left;
+    width: 33.33%;
+    padding: 0 1.8rem;
+}
+.section2 article img {
+    height: 130px;
+    width: auto;
+    padding-bottom: 2rem;
+}
+.section2 p {
+    color: rgb(31, 31, 31);
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    margin: 2rem 0;
+}
