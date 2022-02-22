@@ -1,4 +1,4 @@
-# kahnacademy-clone
+# khannacademy-clone
 
 Welcome! :D
 
